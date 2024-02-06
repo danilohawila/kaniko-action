@@ -109,7 +109,7 @@ Following inputs can be used as `step.with` keys:
 
 | Name             | Type    | Default                            | Description                                                                    |
 |------------------|---------|------------------------------------|--------------------------------------------------------------------------------|
-| `context`        | String  | `/github/workspace`                | Relative folder path to the build context. It must be in the current workspace.|
+| `context`        | String  |                                    | Relative folder path to the build context. It must be in the current workspace.|
 | `file`           | String  | `Dockerfile`                       | Relative path to the Dockerfile. It must be in the context.                    |
 | `push`           | Boolean | true                               | Push the image to the registry. Default to true                                |
 | `tags`           | List    |                                    | List of tags of the image.                                                     |
